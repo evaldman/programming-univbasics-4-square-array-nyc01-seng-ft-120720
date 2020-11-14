@@ -4,7 +4,7 @@ def square_array(array)
 
   while counter < array.length do
     new_array.push(array[counter] * array[counter])
-    coutner += 1 
+    coutner += 1**
   end
   new_array
 end
