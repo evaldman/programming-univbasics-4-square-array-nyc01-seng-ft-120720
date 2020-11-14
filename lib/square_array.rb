@@ -1,9 +1,8 @@
 def square_array(array)
   new_array = []
 
-  while array.each do 
-    new_array.push(array[counter] * array[counter])
-    coutner += 1**
+  while array.each do |square|
+    new_array << (square ** 2)
   end
-  new_array
+p new_array
 end
