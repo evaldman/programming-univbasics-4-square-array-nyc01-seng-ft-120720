@@ -6,3 +6,5 @@ array.length.times do |sq|
 end
 new_array
 end
+
+puts square_array(1,2,3)
