@@ -1,10 +1,9 @@
 def square_array(array)
-  new
-
-  while array[counter] do
-  puts array[counter]
-  counter += 1
+array = [1,2,3,4,5]
+new_array = []
+ 
+array.length.times do |index|
+  new_array.push(array[index] ** 2)
 end
-  end
-p new_array
+new_array
 end
