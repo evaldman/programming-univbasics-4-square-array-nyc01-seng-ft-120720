@@ -1,8 +1,10 @@
 def square_array(array)
-  new_array = []
+  new
 
-  while array do |square|
-    new_array << (square ** 2)
+  while array[counter] do
+  puts array[counter]
+  counter += 1
+end
   end
 p new_array
 end
