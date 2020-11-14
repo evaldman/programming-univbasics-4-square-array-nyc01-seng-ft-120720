@@ -7,4 +7,4 @@ end
 new_array
 end
 
-puts square_array(1,2,3)
+p square_array(1,2,3)
